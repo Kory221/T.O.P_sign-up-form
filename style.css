@@ -1,9 +1,71 @@
 html { 
     box-sizing: border-box;
+    height: 100%;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin : 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    color: white;
+    height : 100%;
+    background-image: url(./images/background.avif);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background: rgba(24, 23, 23, 0.4);
+    height: 15%;
+    margin-top: 22vh;
+    font-size: 55px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 95%;
+}
+
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.link-left {
+    color: white;
+}
+
+form {
+    color: black;
+    height: 100%;
+    width: 65%;
+}
+
+.top {
+    border-bottom-style: groove;
+    height: 70%;
+    background: white;
+}
+
+.bottom {
+    height: 30%;
+    background: rgb(241, 239, 239);
 }
