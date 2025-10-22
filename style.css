@@ -59,15 +59,23 @@ footer {
     color: white;
 }
 
+
 form {
     color: black;
     height: 100%;
     width: 65%;
 }
 
+.intro {
+    font-weight: bold;
+    height: 30%;
+    background: rgb(241, 239, 239);
+
+}
+
 .top {
     border-bottom-style: groove;
-    height: 70%;
+    height: 40%;
     background: white;
 }
 
