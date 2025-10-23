@@ -122,7 +122,8 @@ input[type="password"]:invalid {
 }
 
 input:focus {
-    border-color: blue;
+    outline: none;
+    border : 2px solid blue;
 }
 
 .bottom {
