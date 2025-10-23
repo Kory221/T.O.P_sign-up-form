@@ -118,12 +118,16 @@ form {
 }
 
 input[type="password"]:invalid {
-    border-color: red;
+    border: 1px solid red;
+}
+
+input[type="password"]:invalid:focus {
+    border: 1px solid blue;
 }
 
 input:focus {
     outline: none;
-    border : 2px solid blue;
+    border : 1px solid blue;
 }
 
 .bottom {
