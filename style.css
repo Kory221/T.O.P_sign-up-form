@@ -121,13 +121,14 @@ input[type="password"]:invalid {
     border: 1px solid red;
 }
 
-input[type="password"]:invalid:focus {
+input:invalid:focus {
     border: 1px solid blue;
 }
 
 input:focus {
     outline: none;
     border : 1px solid blue;
+    box-shadow: 0.5px 0.5px 5px rgb(0,0,255,0.5);
 }
 
 .bottom {
