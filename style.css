@@ -33,13 +33,15 @@ body {
     background: rgba(0, 0, 0, 0.5);
     height:fit-content;
     width: 100%;
-    margin-top: 22vh;
+    margin-top: 20vh;
     font-size: 55px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px
 }
 
 .logo {
@@ -69,7 +71,7 @@ form {
 .intro {
     font-size: 18px;
     font-weight: bold;
-    height: 35%;
+    height: 36%;
     background: rgb(241, 239, 239);
     padding-left: 5%;
     padding-right: 25%;
@@ -78,7 +80,7 @@ form {
 
 .top {
     border-bottom-style: groove;
-    height: 35%;
+    height: 34%;
     background: white;
     padding-left: 5%;
 }
