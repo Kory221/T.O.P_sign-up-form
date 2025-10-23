@@ -70,6 +70,8 @@ form {
     font-weight: bold;
     height: 30%;
     background: rgb(241, 239, 239);
+    padding-left: 5%;
+    padding-top: 10%;
 }
 
 .top {
@@ -79,6 +81,11 @@ form {
     padding-left: 5%;
 }
 
+.top p {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .top_controls {
     display: flex;
@@ -96,9 +103,28 @@ form {
 
 .control input {
     width: 85%;
+    height: 35%;
 }
 
 .bottom {
     height: 30%;
     background: rgb(241, 239, 239);
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.bottom button {
+    background-color: #596D48;
+    height: 40px;
+    width: 190px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px ;
+    border-style: none;
+}
+
+.log_link {
+    color:#596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
