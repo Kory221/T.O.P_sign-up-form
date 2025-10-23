@@ -115,6 +115,10 @@ form {
     border-radius: 5px;
 }
 
+input[type="password"]:invalid {
+    border-color: red;
+}
+
 .bottom {
     height: 30%;
     background: rgb(241, 239, 239);
