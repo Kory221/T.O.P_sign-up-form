@@ -67,23 +67,26 @@ form {
 }
 
 .intro {
+    font-size: 18px;
     font-weight: bold;
-    height: 30%;
+    height: 35%;
     background: rgb(241, 239, 239);
     padding-left: 5%;
-    padding-top: 10%;
+    padding-right: 25%;
+    padding-top: 12%;
 }
 
 .top {
     border-bottom-style: groove;
-    height: 40%;
+    height: 35%;
     background: white;
     padding-left: 5%;
 }
 
 .top p {
+    color: rgb(73, 72, 72);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -100,12 +103,13 @@ form {
     display: flex;
     flex-direction: column;
     width: 35%;
-
+    color: rgb(73, 72, 72);
+    font-size: 12px;
 }
 
 .control input {
     width: 75%;
-    height: 40%;
+    height: 45%;
     border-color: #E5E7EB;
     border-style: solid;
     border-radius: 5px;
